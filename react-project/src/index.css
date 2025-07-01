@@ -1,0 +1,58 @@
+
+body{
+  margin: 0;
+  background-color: chocolate;
+  font-family: 'Inter','Sans-serif';
+  color: white;
+  font-size: 1.2rem;
+  background-image: url("./assets/react_logo.png");
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+header{
+  height: 90px;
+  background-color: black;
+  padding: 30px,25px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav > img{
+  width: 40px;
+  margin-right: 7px;
+  margin-left: 25px;
+}
+
+nav > span {
+  color: skyblue;
+  font-size: 2rem;
+  font-family: 'Inter','sans-serif';
+  font-weight: 700;
+}
+
+main {
+  padding: 60px 30px
+}
+
+main > h1{
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.Main-list{
+  margin-top: 33px;
+}
+
+.Main-list > li{
+  margin-top: 10px;
+}
+
+.Main-list > li::marker{
+  color: skyblue;
+  font-size: 1.5rem;
+}
